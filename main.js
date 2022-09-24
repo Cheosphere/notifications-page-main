@@ -26,12 +26,14 @@ markAllRead.addEventListener('click', () => {
 // Removing unread notifications, all 
 unreadNotifications.forEach((item, index) => {
     item.addEventListener('click', function () {
-        item.classList.remove('card_bg')
         setTimeout(() => {
             redPoint[index].classList.remove('red_point')
-            count--
-            if (count >= 0) {
+            if (item.classList.contains('card_bg') && count >= 0) {
+                item.classList.remove('card_bg')
+                count--
                 unreadCount.innerHTML = count
+            } else {
+                return false
             }
         }, 200);
     })
