@@ -9,7 +9,7 @@ let count = unreadNotifications.length
 // Initial unread notifications counter
 unreadCount.innerHTML = count
 
-// Removing unread notifications, one by one
+// Removing unread notifications, all
 markAllRead.addEventListener('click', () => {
     unreadNotifications.forEach(element => {
         element.classList.remove('card_bg')
@@ -23,7 +23,7 @@ markAllRead.addEventListener('click', () => {
     unreadCount.innerHTML = count
 })
 
-// Removing unread notifications, all 
+// Removing unread notifications, one by one
 unreadNotifications.forEach((item, index) => {
     item.addEventListener('click', function () {
         setTimeout(() => {
