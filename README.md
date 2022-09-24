@@ -6,6 +6,8 @@ El desafío es construir esta página de notificaciones y lograr que se parezca 
 - CSS
 - JS Vanilla
 
+![desktop-design](https://user-images.githubusercontent.com/112582420/192097779-6bb31044-7edc-448b-b03d-4e3b607c88e9.jpg)
+
 # Guía de Estilo
 
 ## Diseño
