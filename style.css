@@ -277,10 +277,6 @@ body {
         font-size: .94rem;
     }
 
-    .card {
-        align-items: center;
-    }
-
     .card,
     .card:nth-child(2),
     .card:nth-child(3),
